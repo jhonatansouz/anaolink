@@ -13,13 +13,13 @@ export default function Links() {
   const [myLinks, setMyLinks] = useState([]);
   const [data, setData] = useState({});
   const [showModal, setShowModal] = useState(false)
-  const [empytList, setEmpytList] = useState(false)
+  const [emptyList, setEmptyList] = useState(false)
 
   useEffect(() => {
       async function getLinks() {
           const result = await getLinksSave('@encurtaLink');
           if (result.length === 0) {
-              setEmpytList(true)
+              setEmptyList(true)
           }
 
           setMyLinks(result);
@@ -37,7 +37,7 @@ export default function Links() {
       const result = await deleteLink(myLinks, id);
 
       if(result.length === 0){
-          setEmpytList(true);
+          setEmptyList(true);
       }
 
       setMyLinks(result);
@@ -53,7 +53,7 @@ export default function Links() {
               <h1>Meus Links</h1>
           </div>
 
-          {empytList && (
+          {emptyList && (
               <div className='links-item'>
                   <h2 className='empty-text'>Sua lista está Vazia...</h2>
               </div>

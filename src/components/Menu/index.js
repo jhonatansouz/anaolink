@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 export default function Menu(){
   return (
     <div className="menu">
-      <a className="social" href="https://www.youtube.com/c/sujeitoprogramador">
+      <a className="social" href="https://www.linkedin.com/in/jhonatan-souz/">
         <BsYoutube color="#fff" size={24} />
       </a>
-      <a className="social" href="https://www.youtube.com/c/sujeitoprogramador">
+      <a className="social" href="https://www.linkedin.com/in/jhonatan-souz/">
         <BsInstagram color="#fff" size={24} />
       </a>
       <Link className="menu-item" to="/links">
