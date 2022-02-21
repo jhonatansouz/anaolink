@@ -4,9 +4,15 @@ Projeto de um encurtador de links, nesse projeto consegui aprender
 e reforçar mais sobre reactJs, como styled-components,  react-router-dom,
 react-icons e consumir uma API com React.JS e Axios.
 
+
+
 [![Image from Gyazo](https://i.gyazo.com/3feedb5f15403187582bd6d6533cbf0a.gif)](https://gyazo.com/3feedb5f15403187582bd6d6533cbf0a)
 
 ---
+## Link do projeto hospedado no Netlify 
+
+https://anaolink.netlify.app/
+
 
 # Clone do projeto
 
